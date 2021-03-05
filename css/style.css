@@ -284,8 +284,24 @@ a {
 
 /* ------------------------------------------ Problem Opportunity ------------------------------------------- */
 
+.problemOpp {
+    padding: 6vh 15%;
+    height: auto;
+}
 
+.col-sm img {
+    margin: 0px 50px;
+}
 
+.customCol {
+    position: relative;
+    height: 670px;
+}
+
+.opportunity {
+    position: absolute;
+    bottom: 0px;
+}
 
 /* -------------------------------------------- Contact section --------------------------------------------- */
 
