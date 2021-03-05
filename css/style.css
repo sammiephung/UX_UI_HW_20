@@ -264,10 +264,6 @@ a {
     height: 30vh;
 }
 
-.container-fluid {
-    padding:;
-}
-
 .col-sm {
     padding: 0px;
 }
@@ -285,22 +281,49 @@ a {
 /* ------------------------------------------ Problem Opportunity ------------------------------------------- */
 
 .problemOpp {
-    padding: 6vh 15%;
+    padding: 100px 15%;
+    position: relative;
     height: auto;
 }
 
-.col-sm img {
-    margin: 0px 50px;
-}
-
-.customCol {
-    position: relative;
-    height: 670px;
+.fullPhone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .opportunity {
     position: absolute;
-    bottom: 0px;
+    bottom: 100px;
+    padding-right: 15%;
+}
+
+/* --------------------------------------------- Research Plan ---------------------------------------------- */
+
+.researchPlan {
+    height: auto;
+}
+
+.researchSummary {
+    text-align: center;
+    padding: 150px 23%;
+    background-image: linear-gradient(180deg, white, #F1F0F0);
+}
+
+/* ----------------------------------------------- Objectives ------------------------------------------------ */
+
+.objectives {
+    padding: 100px 15%;
+    height: auto;
+}
+
+.objectives .col-sm {
+    padding-right: 20px;
+}
+
+.col-sm img {
+    margin: 0px;
+    width: 95%;
 }
 
 /* -------------------------------------------- Contact section --------------------------------------------- */
@@ -308,7 +331,7 @@ a {
 .contactMe {
     display: flex;
     flex-direction: column;
-    padding: 150px 15%;
+    padding: 150px 25%;
     align-items: center;
 }
 
@@ -394,10 +417,7 @@ footer {
 
     /* ----------------------------------- Hero Section ----------------------------------- */
 
-.jumbotron 
-
-
-    .heroText {
+    .jumbotron .heroText {
         margin: 0px 7%;
         padding-top: 7vh;
     }
@@ -436,4 +456,4 @@ footer {
 
 
 
-}
+    }
