@@ -310,6 +310,10 @@ a {
     background-image: linear-gradient(180deg, white, #F1F0F0);
 }
 
+.researchSummary h2 {
+    color: #1B1B1E;
+}
+
 /* ----------------------------------------------- Objectives ------------------------------------------------ */
 
 .objectives {
@@ -321,9 +325,49 @@ a {
     padding-right: 20px;
 }
 
+.objectives .col-sm p {
+    height: 90px;
+}
+
 .col-sm img {
     margin: 0px;
     width: 95%;
+}
+
+/* ----------------------------------------------- User Persona ------------------------------------------------ */
+
+.userPersona {
+    height: auto;
+    background-image: linear-gradient(180deg, white, #F1F0F0);
+}
+
+.userPersona .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userPersona img {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* --------------------------------------------- User Insight ---------------------------------------------- */
+
+.userInsight {
+    height: auto;
+}
+
+.insightSummary {
+    text-align: center;
+    padding: 150px 23%;
+    background-color: #2A7DE1;
+}
+
+.insightSummary h2,
+.insightSummary p {
+    color: white;
+
 }
 
 /* -------------------------------------------- Contact section --------------------------------------------- */
@@ -457,3 +501,4 @@ footer {
 
 
     }
+}
