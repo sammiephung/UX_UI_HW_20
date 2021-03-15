@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 /* --------------------------------------------- Font styles --------------------------------------------- */
@@ -228,6 +229,46 @@ a {
     font-size: 80px;
 }
 
+/* -------------------------------------------- Fixed side nav -------------------------------------------- */
+
+.sideNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    bottom: 14vh;
+    left: 9%;
+    z-index: 1;
+    width: 72vh;
+
+}
+
+.sideNav a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #BDBDBD;
+
+}
+
+.sideNav p {
+    color: #BDBDBD;
+}
+
+.sideNav a:hover {
+    color: #828282;
+}
+
+.sideNav a:active {
+    color: #4F4F4F;
+}
+
 /* --------------------------------------------- Hero section --------------------------------------------- */
 
 .jumbotron {
@@ -290,6 +331,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto 40px;
 }
 
 .opportunity {
@@ -369,6 +411,34 @@ a {
 .insightSummary h2,
 .insightSummary p {
     color: white;
+}
+
+/* ----------------------------------------- Pioritization Matrix ------------------------------------------ */
+
+.featureMatrix {
+    padding: 150px 15%;
+    height: auto;
+}
+
+.featureText {
+    padding-right: 40px;
+}
+
+.featureMatrix img {
+    width: 100%;
+    max-width: 509px;
+    min-width: 350px;
+}
+
+/* --------------------------------------------- User journey ---------------------------------------------- */
+
+.userJourney {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    background-image: linear-gradient(180deg, white, #F1F0F0);
 }
 
 /* -------------------------------------------- Contact section --------------------------------------------- */
